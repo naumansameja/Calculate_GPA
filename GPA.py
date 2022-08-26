@@ -1,8 +1,8 @@
 class GPA:
-    grades = {"A": 4, "A-": 3.7, "B+": 3.3, "B": 3.0, "B-": 2.7, "C+": 2.3, "C": 2.0, "D": 1.0, "F": 0.0}
-
+    
     def __init__(self, d):
         self.dictionary = d
+        self.grades = {"A": 4, "A-": 3.7, "B+": 3.3, "B": 3.0, "B-": 2.7, "C+": 2.3, "C": 2.0, "D": 1.0, "F": 0.0}
 
     def get_gpa(self):
         total_credit = 0
